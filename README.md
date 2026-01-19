@@ -80,12 +80,12 @@ source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
 2. Install dependencies
 bash
-Αντιγραφή κώδικα
+
 pip install -r requirements.txt
 Usage
 Train the model
 bash
-Αντιγραφή κώδικα
+
 python bike_demand.py train
 This will:
 
