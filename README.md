@@ -78,15 +78,17 @@ bike-demand-forecasting/
 python -m venv .venv
 source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
+
 2. Install dependencies
-bash
+
 
 pip install -r requirements.txt
+
 Usage
 Train the model
-bash
 
 python bike_demand.py train
+
 This will:
 
 Load the dataset
@@ -103,10 +105,11 @@ Example output:
 MAE :  30.46
 RMSE:  48.49
 R^2 :  0.926
+
 Run predictions (demo)
-bash
 
 python bike_demand.py demo
+
 This generates:
 
 predictions.csv
