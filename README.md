@@ -67,8 +67,6 @@ bike-demand-forecasting/
 ├── .gitignore
 └── .venv/ # (ignored)
 
-yaml
-Αντιγραφή κώδικα
 
 ---
 
@@ -101,18 +99,16 @@ Save the trained model to artifacts/
 
 Example output:
 
-yaml
-Αντιγραφή κώδικα
+
 MAE :  30.46
 RMSE:  48.49
 R^2 :  0.926
 Run predictions (demo)
 bash
-Αντιγραφή κώδικα
+
 python bike_demand.py demo
 This generates:
 
-Αντιγραφή κώδικα
 predictions.csv
 containing predicted bike demand.
 
